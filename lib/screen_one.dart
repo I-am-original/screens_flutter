@@ -57,6 +57,7 @@ class _HomePageState extends State<HomePage> {
                 Navigator.push(
                   context,
                   CupertinoPageRoute(
+                    settings: RouteSettings(name: '/2'),
                     builder: (context) => SecondPage(title: "Screen 2"),
                   ),
                 );
