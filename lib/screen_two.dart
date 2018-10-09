@@ -51,7 +51,7 @@ class _PageState extends State<SecondPage> {
               child: Text('NEXT',
                   style: Theme.of(context)
                       .textTheme
-                      .title
+                      .body1
                       .copyWith(color: Colors.white)),
               onPressed: () {
                 Navigator.push(
